@@ -3,5 +3,11 @@
   "outputDirectory": "build",
   "env": {
     "REACT_APP_API_URL": "@api_url"
-  }
+  },
+  "routes": [
+    {
+      "src": "/[^.]+$",
+      "destination": "/index.html"
+    }
+  ]
 }
