@@ -25,16 +25,5 @@
   },
   "devDependencies": {
     "react-scripts": "5.0.1"
-  },
-  "buildCommand": "npm run build",
-  "outputDirectory": "build",
-  "env": {
-    "REACT_APP_API_URL": "@api_url"
-  },
-  "routes": [
-    {
-      "src": "/[^.]+$",
-      "destination": "/index.html"
-    }
-  ]
+  }
 }
